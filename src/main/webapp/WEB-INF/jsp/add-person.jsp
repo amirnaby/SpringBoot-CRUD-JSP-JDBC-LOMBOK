@@ -6,7 +6,7 @@
 			<div class="panel panel-primary">
 				<div class="panel-heading">Add Person</div>
 				<div class="panel-body">
-					<form method="post" action="/add-person/save">
+					<form method="get" action="/add-person/save">
 						<fieldset class="form-group">
 							<label>Name: </label>
 							<input type="text" name="name" value="${requestScope.x.name}"/>
